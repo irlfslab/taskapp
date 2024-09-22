@@ -64,7 +64,7 @@ li {
   flex: 1;  
 }
 .del-btn, .mv-btn{
-  padding: 8px  12px;
-  font-size: 1.4rem;
+  padding: 8px  15px;
+  font-size: 1.6rem;
   margin-left: 10px;
 }
