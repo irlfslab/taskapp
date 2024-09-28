@@ -8,8 +8,6 @@ function Clock1() {
             setTime(new Date());
         }, 1000);
 
-         {/* when unmount the component clear interval */}
-
         return () => {
             clearInterval(intervalId);
         }
