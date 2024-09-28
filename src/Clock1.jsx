@@ -5,7 +5,7 @@ function Clock1() {
     const [time, setTime] = useState(new Date());
     useEffect(() => {
         const intervalId = setInterval(() => {
-            setTime(newDate());
+            setTime(new Date());
         }, 1000);
 
          {/* when unmount the component clear interval */}
