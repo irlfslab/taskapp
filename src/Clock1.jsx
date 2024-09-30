@@ -30,7 +30,7 @@ function Clock1() {
     return (
         <div className = "container1">
             <div className="clock">
-                <span>00:00:00</span>
+               <span>{formatTime()}</span>
             </div>
         </div>
     );
